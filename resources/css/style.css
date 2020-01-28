@@ -267,6 +267,7 @@ header {
     z-index: 100;
 }
 
+.sticky .main-nav { margin-top: 18px;}
 
 .sticky .main-nav li a:link,
 .sticky .main-nav li a:visited {
@@ -651,4 +652,19 @@ footer p {
 .js--wp-2 .animated,
 .js--wp-3 .animated {
     opacity: 1;
+}
+
+
+.mobile-nav-icon {
+    float: right;
+    margin-top: 10px;
+    cursor: pointer;
+    display: none;
+}
+
+
+.mobile-nav-icon i {
+    font-size: 200%;
+    color: white
+
 }
